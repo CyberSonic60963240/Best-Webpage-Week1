@@ -1,0 +1,55 @@
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	display: flex;
+}
+
+/* When writing CSS classes it is VERY important that you use hyphen delimited strings (square-div and NOT squareDiv) */
+/* Additionally, you should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+/* When thinking about sizing elements on your page, there are many different units you can use = https://www.w3schools.com/cssref/css_units.asp */
+
+.square-div {
+	height: 100%;
+	width: calc(100%/3);
+}
+
+.big-div {
+	display: block;
+	height: 100%;
+	width: calc(100%/3);
+}
+
+.cube-div {
+	height: 50%;
+	width: 100%;
+}
+
+/* When possible, organize CSS classes in alphabetical order */
+.blue {
+	background-color: #00FFDC;
+}
+
+.green {
+	background-color: #00FF24;
+}
+
+.pink {
+	background-color: #FFAEDC;
+}
+
+.blue2 {
+	background-color: #00FFDC;
+}
+
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.image {
+	max-height: 50%;
+	max-width: 50%;
+}
+<script src="script.js"></script>
